@@ -36,72 +36,7 @@ export default class SebarModernExam extends React.Component<IProps, IState> {
               </p>
               <a href="https://aka.ms/spfx" className={styles.button}>
                 <span className={styles.label}>Learn more</span>
-              </a>
-
-              {/* <h2 className={styles.title}>Most visited USA states:</h2>
-            <ul className={styles.statesList}>
-              {states !== null &&
-                states.map((item: any) => (
-                  <li key={item.Id} className={styles.listItem}>
-                    <h3>{item.Title}</h3>
-                    <p>{item.Description}</p>
-                    <p className={styles.itemText}>
-                      <span>Best place to visit here:</span>
-                      <a
-                        href={item.places.Source0}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {item.places.Title}
-                      </a>
-                    </p>
-                  </li>
-                ))}
-            </ul>
-
-            <button
-              type="button"
-              className={styles.addBtn}
-              onClick={this.toggleModal}
-            >
-              Add New State
-            </button>
-
-            {modal && (
-              <form onSubmit={this.handleSubmit} className={styles.form}>
-                <input
-                  type="text"
-                  name="name"
-                  value={name}
-                  onChange={this.handleNameChange}
-                  placeholder="State Name"
-                  className={styles.formInput}
-                ></input>
-                <input
-                  type="text"
-                  name="descr"
-                  value={descr}
-                  onChange={this.handleDescrChange}
-                  placeholder="Description"
-                  className={styles.formInput}
-                ></input>
-
-                <div>
-                  <Select
-                    options={options}
-                    value={place}
-                    onChange={this.handlePlaceChange}
-                    placeholder="Best place to visit"
-                    autosize={true}
-                  />
-                </div>
-
-                <button type="submit" className={styles.submitBtn}>
-                  Add
-                </button>
-              </form>
-            )}
-          </div> */}
+              </a>              
             </div>
           </div>
         </div>
