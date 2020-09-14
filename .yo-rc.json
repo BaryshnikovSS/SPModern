@@ -3,8 +3,8 @@
     "isCreatingSolution": true,
     "environment": "spo",
     "version": "1.11.0",
-    "libraryName": "exam-modern",
-    "libraryId": "b770cefd-8986-4e8f-8c73-a23a44d2371f",
+    "libraryName": "sp-modern",
+    "libraryId": "4eb1992b-6eaa-4cf5-ace9-73a7ab72240b",
     "packageManager": "npm",
     "isDomainIsolated": false,
     "componentType": "webpart"

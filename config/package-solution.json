@@ -1,8 +1,8 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "exam-modern-client-side-solution",
-    "id": "b770cefd-8986-4e8f-8c73-a23a44d2371f",
+    "name": "sp-modern-client-side-solution",
+    "id": "4eb1992b-6eaa-4cf5-ace9-73a7ab72240b",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
     "isDomainIsolated": false,
@@ -15,6 +15,6 @@
     }
   },
   "paths": {
-    "zippedPackage": "solution/exam-modern.sppkg"
+    "zippedPackage": "solution/sp-modern.sppkg"
   }
 }

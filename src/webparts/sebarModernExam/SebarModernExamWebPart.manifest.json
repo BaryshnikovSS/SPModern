@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
-  "id": "9e75f77f-2345-4fa8-8a8a-d5e6a53dd8d6",
+  "id": "583f3b69-5ddc-482e-a8c9-ec99f328de2b",
   "alias": "SebarModernExamWebPart",
   "componentType": "WebPart",
 
@@ -17,11 +17,11 @@
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
     "group": { "default": "Other" },
-    "title": { "default": "Sebar-modern-exam" },
-    "description": { "default": "Sebar-modern-exam description" },
+    "title": { "default": "sebar-modern-exam" },
+    "description": { "default": "sebar-modern-exam description" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "Sebar-modern-exam"
+      "description": "sebar-modern-exam"
     }
   }]
 }

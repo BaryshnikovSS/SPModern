@@ -31,4 +31,6 @@ obj
 # Styles Generated Code
 *.scss.ts
 
+# My custom rules
 .vscode
+.teams

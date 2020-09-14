@@ -1,6 +1,3 @@
-import { WebPartContext } from "@microsoft/sp-webpart-base";
-
-export interface IModernWpProps {
+export interface ISebarModernExamProps {
   description: string;
-  context: WebPartContext;
 }

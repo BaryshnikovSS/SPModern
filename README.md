@@ -1,4 +1,4 @@
-# exam-modern
+# sp-modern
 
 ## Summary
 
