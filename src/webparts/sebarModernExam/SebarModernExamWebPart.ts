@@ -21,7 +21,8 @@ export default class SebarModernExamWebPart extends BaseClientSideWebPart<ISebar
     const element: React.ReactElement<ISebarModernExamProps> = React.createElement(
       SebarModernExam,
       {
-        description: this.properties.description
+        description: this.properties.description,
+        context: this.context
       }
     );
 
@@ -32,9 +33,9 @@ export default class SebarModernExamWebPart extends BaseClientSideWebPart<ISebar
     ReactDom.unmountComponentAtNode(this.domElement);
   }
 
-  protected get dataVersion(): Version {
-    return Version.parse('1.0');
-  }
+  // protected get dataVersion(): Version {
+  //   return Version.parse('1.0');
+  // }
 
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
     return {
